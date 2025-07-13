@@ -6,5 +6,28 @@
 		"_exporter_id": "46713933",
 		"_collection_link": "https://nikhil-5295142.postman.co/workspace/fa7474f5-33fd-4372-8c20-c4b3041daa0d/collection/46713933-eff9d303-8027-435f-915c-afd931dc9534?action=share&source=collection_link&creator=46713933"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://02606c9f1321.ngrok-free.app/api/user/1",
+					"protocol": "https",
+					"host": [
+						"02606c9f1321",
+						"ngrok-free",
+						"app"
+					],
+					"path": [
+						"api",
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }

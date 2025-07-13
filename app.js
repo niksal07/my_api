@@ -11,7 +11,7 @@ app.get('/api/user/:id', (req, res) => {
   res.json({ id: userId, name: 'John Doe' });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`API server running on port ${PORT}`);
 });
